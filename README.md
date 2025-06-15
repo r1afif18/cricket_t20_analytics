@@ -1,102 +1,92 @@
-# 🏏 T20 Cricket Analytics: From EDA to Interactive Web App
+T20 Cricket Analytics: From EDA to Interactive Dashboard
+This repository documents the end-to-end process of a T20 cricket data analysis project. It showcases a complete data science workflow, beginning with in-depth Exploratory Data Analysis (EDA) in a Jupyter Notebook and culminating in a user-friendly, interactive Streamlit Web Application.
 
-**This repository contains a complete data analytics project for T20 International Cricket matches — starting from data cleaning and exploration (EDA) in Jupyter Notebook to a fully interactive Streamlit web app for everyone to use.**
+Project Structure: Analysis & Application
+This project is built on two core components, demonstrating both analytical depth and the ability to deliver actionable insights.
 
----
+1. The Analysis 🔬 (main.ipynb)
+The foundation of this project is a comprehensive Exploratory Data Analysis performed in the main.ipynb Jupyter Notebook. This document details the entire investigation process.
 
-## 🚀 [Live Web App](https://crickett20analytics.streamlit.app/)
+Key objectives of the analysis included:
 
----
+Data Cleaning & Preprocessing: Handling missing values, correcting data types, and structuring the raw data for analysis.
 
-## 📊 Project Overview
+Feature Engineering: Creating new, meaningful features from existing data to uncover deeper insights.
 
-This project has two main components:
+Insight Discovery: Answering key questions about team and player performance, such as:
 
-1. **Exploratory Data Analysis (EDA):**
-   - A Jupyter Notebook that documents the process of cleaning, exploring, and discovering insights from raw T20 cricket match data.
-   - Prepares clean, ready-to-use data for further analysis or dashboarding.
+Identifying the most successful teams and players.
 
-2. **Interactive Web Application:**
-   - Built with Streamlit to visualize and interactively explore cricket data.
-   - Lets users filter, visualize, and analyze key stats for teams and players.
+Analyzing head-to-head match-ups and historical performance.
 
----
+Understanding factors that contribute to winning matches.
 
-## 📓 EDA Notebook
+2. The Interactive Dashboard 📊 (app.py)
+The insights from the analysis are brought to life in an interactive web application built with Streamlit. The dashboard's purpose is to make the complex data accessible and explorable for any user, regardless of their technical background.
 
-The notebook (`notebooks/01-eda-cricket.ipynb`) covers:
-- Understanding the structure and quality of the dataset
-- Cleaning anomalies and missing values
-- Discovering key patterns and trends (team & player performance)
-- Prepping data for visualization and app
+Live Application: https://crickett20analytics.streamlit.app/
 
----
+Dashboard Capabilities:
 
-## ✨ Main Features (Web App)
+Overall Tournament Insights: Explore high-level statistics, including top run-scorers and wicket-takers across all matches.
 
-- **Overall Analysis:**  
-  See aggregate stats for all matches, including total runs, wickets, and team summaries.
-- **Team vs Team (Head-to-Head):**  
-  Compare two teams' stats and match histories (upgrade this in dashboard as needed!).
-- **Player Performance:**  
-  Detailed batting & bowling analysis per player.
-- **Interactive Visualizations:**  
-  Easy-to-read charts and plots using Plotly.
-- **Dynamic Filtering:**  
-  Slice data by team, player, or year to find specific insights.
-- **Responsive UI:**  
-  Clean, modern layout ready for desktop and mobile.
+Team vs. Team Head-to-Head: Select any two teams to see a detailed comparison of their historical performance against each other.
 
----
+Detailed Player Analytics: Dive into the career statistics of individual players to analyze their batting and bowling performance over time.
 
-## 🛠️ Tech Stack
+Dynamic Filtering: Interactively filter the data by team, player, or year to generate custom visualizations and insights on the fly.
 
-- **Language:** Python
-- **Data Analysis:** Jupyter Notebook, Pandas, NumPy
-- **Data Visualization:** Plotly, Matplotlib, Seaborn
-- **Web Framework:** Streamlit
-- **Deployment:** Streamlit Community Cloud
+📸 Application Preview
+Here is a glimpse of the dashboard's interface.
 
----
+![Image of the Cricket T20 Analytics Dashboard]([https://placehold.co/800x450/2d3748/ffffff?text=Your+Application+Screenshot](https://github.com/user-attachments/assets/6f4bf83a-a42b-4e21-9909-d7b07b9dd106))
 
-## ⚡ How To Run Locally
+(Recommendation: Replace this placeholder with an actual screenshot of your application for maximum impact.)
 
-```sh
+🛠️ Technology Stack
+Data Analysis: Python, Pandas, NumPy, Jupyter Notebook
+
+Data Visualization: Plotly, Matplotlib, Seaborn
+
+Web Application: Streamlit
+
+Deployment: Streamlit Community Cloud
+
+🚀 How to Run Locally
+To run this project on your local machine, follow these steps:
+
+Clone the Repository
+
 git clone https://github.com/r1afif18/cricket_t20_analytics.git
 cd cricket_t20_analytics
 
-# (Optional but recommended)
+Set Up a Virtual Environment (Recommended)
+
+# For Windows
 python -m venv venv
-# Windows:
-venv\Scripts\activate
-# macOS/Linux:
+.\venv\Scripts\activate
+
+# For macOS/Linux
+python3 -m venv venv
 source venv/bin/activate
+
+Install Dependencies
+Ensure you have a requirements.txt file in your repository.
 
 pip install -r requirements.txt
 
-# Run the Streamlit app
-streamlit run dashboard.py
-Open your browser and go to http://localhost:8501.
+Run the Streamlit Application
 
-📑 Dataset
-Public T20 cricket match data
+streamlit run app.py
 
-Sourced from Codebasics Power BI Project
-
-CSVs included: match summaries, player info, batting and bowling stats
-
-📸 App Screenshots
-(Tip: Add screenshots of your dashboard here for extra visual impact!)
+The application will open in your web browser at http://localhost:8501.
 
 📄 License
-MIT License — free for educational and portfolio use.
+This project is licensed under the MIT License.
 
-👤 About Me
-Developed by Rafif Sudanta
+👤 Connect with Me
+Muhammad Rafif Sudanta
 
-GitHub
-
-LinkedIn
-
-Made with ❤️ for cricket fans and data enthusiasts worldwide!
-
+GitHub: [@r1afif18
+](https://github.com/r1afif18)
+LinkedIn: [linkedin.com/in/muhammad-afif-rusyadi](https://www.linkedin.com/in/rafif-sudanta/)
