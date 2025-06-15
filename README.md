@@ -86,24 +86,30 @@ pip install -r requirements.txt
 # Run the Streamlit app
 streamlit run dashboard.py
 
+\\\
 
 
-📑 Dataset
-Public T20 cricket match data
 
-Sourced from Codebasics Power BI Project
+## 📑 Dataset
 
-CSVs included: match summaries, player info, batting and bowling stats
+- Public T20 cricket match data  
+- Sourced from [Codebasics Power BI Project](https://github.com/codebasics/py/tree/master/pandas/11_power_bi_projects)  
+- CSVs included: match summaries, player info, batting and bowling stats
 
-📄 License
+---
+
+## 📄 License
+
 This project is licensed under the MIT License.
 
-👤 Connect with Me
-Developed by Muhammad Rafif Sudanta
+---
 
-GitHub: @r1afif18
+## 👤 Connect with Me
 
-LinkedIn: linkedin.com/in/rafif-sudanta
+Developed by **Muhammad Rafif Sudanta**  
+- [GitHub: @r1afif18](https://github.com/r1afif18)
+- [LinkedIn: linkedin.com/in/rafif-sudanta](https://www.linkedin.com/in/rafif-sudanta/)
 
-Made with ❤️ for cricket fans and data enthusiasts worldwide!
+_Made with ❤️ for cricket fans and data enthusiasts worldwide!_
+
 
