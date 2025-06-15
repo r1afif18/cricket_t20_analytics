@@ -1,27 +1,54 @@
-T20 Cricket Analytics: From EDA to Interactive Dashboard
+# 🏏 T20 Cricket Analytics: From EDA to Interactive Web App
+
 This repository documents the end-to-end process of a T20 cricket data analysis project. It showcases a complete data science workflow, beginning with in-depth Exploratory Data Analysis (EDA) in a Jupyter Notebook and culminating in a user-friendly, interactive Streamlit Web Application.
 
 Project Structure: Analysis & Application
 This project is built on two core components, demonstrating both analytical depth and the ability to deliver actionable insights.
 
-1. The Analysis 🔬 (main.ipynb)
-The foundation of this project is a comprehensive Exploratory Data Analysis performed in the main.ipynb Jupyter Notebook. This document details the entire investigation process.
+## 📓 EDA Notebook
 
-Key objectives of the analysis included:
+The notebook (`notebooks/01-eda-cricket.ipynb`) covers:
+- Understanding the structure and quality of the dataset
+- Cleaning anomalies and missing values
+- Discovering key patterns and trends (team & player performance)
+- Prepping data for visualization and app
 
-Data Cleaning & Preprocessing: Handling missing values, correcting data types, and structuring the raw data for analysis.
+---
 
-Feature Engineering: Creating new, meaningful features from existing data to uncover deeper insights.
+## ✨ Main Features (Web App)
+📸 Application Preview
+Here is a glimpse of the dashboard's interface.
 
-Insight Discovery: Answering key questions about team and player performance, such as:
+![Image of the Cricket T20 Analytics Dashboard] [https://placehold.co/800x450/2d3748/ffffff?text=Your+Application+Screenshot](https://github.com/user-attachments/assets/6f4bf83a-a42b-4e21-9909-d7b07b9dd106)
+- **Overall Analysis:**  
+  See aggregate stats for all matches, including total runs, wickets, and team summaries.
+- **Team vs Team (Head-to-Head):**  
+  Compare two teams' stats and match histories (upgrade this in dashboard as needed!).
+- **Player Performance:**  
+  Detailed batting & bowling analysis per player.
+- **Interactive Visualizations:**  
+  Easy-to-read charts and plots using Plotly.
+- **Dynamic Filtering:**  
+  Slice data by team, player, or year to find specific insights.
+- **Responsive UI:**  
+  Clean, modern layout ready for desktop and mobile.
 
-Identifying the most successful teams and players.
+---
 
-Analyzing head-to-head match-ups and historical performance.
+## 🛠️ Tech Stack
 
-Understanding factors that contribute to winning matches.
+- **Language:** Python
+- **Data Analysis:** Jupyter Notebook, Pandas, NumPy
+- **Data Visualization:** Plotly, Matplotlib, Seaborn
+- **Web Framework:** Streamlit
+- **Deployment:** Streamlit Community Cloud
 
-2. The Interactive Dashboard 📊 (app.py)
+---
+
+## ⚡ How To Run Locally
+
+
+2. The Interactive Dashboard ## 🚀 (app.py)
 The insights from the analysis are brought to life in an interactive web application built with Streamlit. The dashboard's purpose is to make the complex data accessible and explorable for any user, regardless of their technical background.
 
 Live Application: https://crickett20analytics.streamlit.app/
