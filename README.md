@@ -6,7 +6,7 @@ It showcases a complete data science workflow, beginning with in-depth Explorato
 ---
 
 ## 🗂️ Project Structure
-
+```
 cricket_t20_analytics/
 ├── data/ # All CSV data files
 ├── notebooks/
@@ -14,7 +14,7 @@ cricket_t20_analytics/
 ├── dashboard.py # Main Streamlit web app
 ├── requirements.txt # Dependencies for easy install
 └── README.md
-
+```
 
 ---
 
@@ -50,9 +50,8 @@ The core insights from EDA are brought to life in an interactive Streamlit web a
   Clean layout ready for desktop and mobile.
 
 **Preview:**  
-*(Replace this placeholder with a real dashboard screenshot for best impact)*
 
-![Dashboard Screenshot](https://placehold.co/800x450/2d3748/ffffff?text=Your+Application+Screenshot)
+![Dashboard Screenshot](https://github-production-user-asset-6210df.s3.amazonaws.com/165122312/455269093-497e84b1-3b06-456a-99a0-7768904b11ce.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250615%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250615T154338Z&X-Amz-Expires=300&X-Amz-Signature=0d7da54d6f5ffa4c733a8300c00b05e693145a98cc1b1a159dba4b531f7d62da&X-Amz-SignedHeaders=host)
 
 ---
 
@@ -70,12 +69,10 @@ The core insights from EDA are brought to life in an interactive Streamlit web a
 ```sh
 git clone https://github.com/r1afif18/cricket_t20_analytics.git
 cd cricket_t20_analytics
-
 # (Recommended) Create and activate a virtual environment
 # Windows:
 python -m venv venv
 venv\Scripts\activate
-
 # macOS/Linux:
 python3 -m venv venv
 source venv/bin/activate
@@ -85,31 +82,24 @@ pip install -r requirements.txt
 
 # Run the Streamlit app
 streamlit run dashboard.py
-
-\\\
-
+```
 
 
 ## 📑 Dataset
 
 - Public T20 cricket match data  
-- Sourced from [Codebasics Power BI Project](https://github.com/codebasics/py/tree/master/pandas/11_power_bi_projects)  
+- Sourced from [Codebasics](https://github.com/codebasics/py/tree/master/pandas/11_power_bi_projects)  
 - CSVs included: match summaries, player info, batting and bowling stats
 
----
 
-## 📄 License
 
-This project is licensed under the MIT License.
+## 👤 Connect with me
 
----
+- [GitHub](https://github.com/r1afif18)
+- [LinkedIn](https://www.linkedin.com/in/rafif-sudanta/)
 
-## 👤 Connect with Me
 
-Developed by **Muhammad Rafif Sudanta**  
-- [GitHub: @r1afif18](https://github.com/r1afif18)
-- [LinkedIn: linkedin.com/in/rafif-sudanta](https://www.linkedin.com/in/rafif-sudanta/)
 
-_Made with ❤️ for cricket fans and data enthusiasts worldwide!_
+
 
 
